@@ -46,3 +46,4 @@ If you would like to run a **neural net classifier** on the Cifar10 dataset, run
 The classification reports can be found in the ```/cds_vis_2/out``` folder, called ```"lr.txt"``` in the case of the logistic regression classifier, and ```"mlp.txt"``` in the case of the neural net classifier.
 
 ## 2.5. Discussion
+Overall, both classifiers performed better than chance on the ```Cifar10``` dataset. The logistic regression classifier achieved a mean accuracy of 31%, which resulted from highly differening accuracies for different categories: it can categorize e.g. trucks and automobiles with 42% and 38% accuracy, respectively, but can only categorize cats and birds with 17% and 18% accuracy, respectively. Meanwhile, the neural net classifier performs somewhat better. It achieved a mean accuracy of 38%. It performs best on automobiles and ships, both at 46% accuracy, and worst at cats and deer, 25% and 28% accuracy.
